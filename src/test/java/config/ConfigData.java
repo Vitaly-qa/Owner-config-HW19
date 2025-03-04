@@ -25,7 +25,7 @@ public interface ConfigData extends Config {
     String baseUrl();
 
     @org.aeonbits.owner.Config.Key("isRemote")
-    @org.aeonbits.owner.Config.DefaultValue("true")
+    @org.aeonbits.owner.Config.DefaultValue("false")
     boolean isRemote();
 
     @org.aeonbits.owner.Config.Key("remoteUrl")
