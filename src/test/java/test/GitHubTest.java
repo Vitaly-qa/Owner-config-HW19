@@ -16,7 +16,7 @@ public class GitHubTest extends TestBase {
 
 
     @Test
-    void checkTitleOfEnterprisePage() {
+    void checkTitleOfSmallAndMediumTeamsPage() {
         open("/");
         $(byTagAndText("button", "Solutions")).hover();
         $(byText("Team")).click();
